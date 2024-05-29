@@ -194,3 +194,15 @@ items-list {
   margin-top: 10px;
   font-size: 10px;
 }
+
+.search-bar1 {
+    padding: 5px 50px;
+    border: 5px solid #0081FF;
+    margin-right: 10px;
+}
+
+.search-form1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
