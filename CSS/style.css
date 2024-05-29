@@ -1,0 +1,196 @@
+
+body {
+    
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    top: 0;
+    position: sticky;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search-button i {
+    font-size: 16px;
+}
+.nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-items li {
+    display: inline-block;
+    margin-right: 20px;
+}
+main {
+    padding: 40px 0;
+}
+.hero {
+    text-align: center;
+}
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.hero-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    margin-top: 40px;
+}
+.features h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+#results {
+   display: flex;
+   top: 1;
+   position: sticky;
+}
+#results ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#results ul li {
+    margin-bottom: 5px;
+    
+    
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+#vmlogo{
+  border-radius: 100%;
+}
+#btlogo{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #A80000;
+  color: white;
+}
+.abtline{
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+#mmoo{
+  margin-left: 5px;
+  line-height: 30px;
+}
+.csharp{
+  margin-top: 30px;
+  margin-left: 5px;
+  font-size: 30px;
+}
+.emails{
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+#lop{
+  font-size: 15px;
+}
+.ppandtou {
+  background-color: #FFFFFF;
+  width: 300px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+.toupphead{
+  font-size: 40px;
+  font-weight: bold;
+}
+.h345{
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+items-list {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+  border: 2px solid #000000;
+}
+
+.list-images{
+  
+  margin-right: 20px;
+  height: max;
+  width: 100px;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 10px;
+}
