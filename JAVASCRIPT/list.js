@@ -3,8 +3,8 @@
 const articles = [
   {
     title: "Bhagavad Gita",
-    url: "https://www.example.com/article1",
-    image: "/Bhagavad Gita_20240511_142124_0000.png",
+    url: "/",
+    image: "/SRC/BHAGAVADGITA/Bhagavad Gita_20240511_140851_0000.png",
     description: "A 700-verse Hindu scripture in Sanskrit."
   },
   {
