@@ -16,3 +16,14 @@
 .list-item img {
   max-width: 100%;
 }
+
+#viewpdf {
+  margin-top: 10px;
+  width: 100%;
+  max-height: 550px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: black;
+}
