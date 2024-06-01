@@ -1,4 +1,3 @@
-
 import articles from '/JAVASCRIPT/list.js';
 
 const searchBox = document.getElementById('search-box');
@@ -8,6 +7,9 @@ searchBox.addEventListener('keyup', function() {
   const searchTerm = this.value.toLowerCase();
 
   let filteredArticles = articles.filter(article => article.title.toLowerCase().includes(searchTerm));
+
+  // Sort filtered articles alphabetically by title
+  filteredArticles.sort((a, b) => a.title.localeCompare(b.title));
 
   if (searchTerm.length > 0) {
     results.innerHTML = '';
@@ -56,4 +58,3 @@ searchBox.addEventListener('keyup', function() {
     results.style.display = 'none';
   }
 });
-                                                   
