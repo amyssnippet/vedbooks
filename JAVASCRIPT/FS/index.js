@@ -1,4 +1,4 @@
-import pages from 
+import pages from '/JAVASCRIPT/AG_JS/list.js';
 const results = document.getElementById('viewpdfinfullscreen');
 
 pages.forEach(page => {
