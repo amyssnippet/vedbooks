@@ -15,8 +15,8 @@ const articles = [
   },
   {
     title: "Ashtavakra Gita",
-    url: "https://vedbooks.vercel.com/BOOKS/SHASHTRAS/GITAS/Ashtavakra_Gita.html",
-    image: "https://vedbooks.vercel.com/SRC/IMG/0.jpg",
+    url: "BOOKS/SHASHTRAS/GITAS/Ashtavakra_Gita.html",
+    image: "/SRC/IMG/0.jpg",
     description: "The Ashtavakra Gita or Song of Ashtavakra is a classical Hindu text in the form of a dialogue between the sage Ashtavakra and Janaka, king of Mithila."
   },
 ];
