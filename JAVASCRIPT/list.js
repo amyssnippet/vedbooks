@@ -16,8 +16,8 @@ const articles = [
   {
     title: "Ashtavakra Gita",
     url: "BOOKS/SHASHTRAS/GITAS/Ashtavakra_Gita.html",
-    image: "/91e52deb-51a0-4759-81b4-9211d83d7c50.jpeg",
-    description: "An ancient Indian epic where the main story revolves around the Pandavas and Kauravas."
+    image: "SRC/IMG/0.jpg",
+    description: "The Ashtavakra Gita or Song of Ashtavakra is a classical Hindu text in the form of a dialogue between the sage Ashtavakra and Janaka, king of Mithila."
   },
 ];
 
